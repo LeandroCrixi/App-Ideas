@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <title>App Ideas List</title>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <!-- Title -->
+    <h1 class="title">App Ideas List</h1>
+
+    <!-- Page Description -->
+    <p class="description">
+        Page created to have projects that I've created from
+         <a target="_blank" href="https://github.com/florinpop17/app-ideas?tab=readme-ov-file">here</a>
+    </p>
+
+    <!-- Beginner Projects (Tier 1) -->
+    <h2 class="tier">Tier-1: Beginner Projects</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nº</th>
+                <th>Name</th>
+                <th>Short Description</th>
+                <th>My Page</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>
+                    <a target="_blank" href="https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Bin2Dec-App.md">Bin2Dec</a>
+                </td>
+                <td>Binary-to-Decimal number converter</td>
+                <td><a target="_blank" href="/">My Page</a></td>
+            </tr>
+            <!-- Add more beginner projects here -->
+        </tbody>
+    </table> 
+
+    <!-- Featured Projects (Cards Section) -->
+    <h2 class="tier">Featured Projects</h2>
+    <div class="projects">
+        <div class="card">
+          <h3>Weather App</h3>
+          <p>A project to show weather data using a third-party API.</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="card">
+          <h3>Chat Application</h3>
+          <p>A real-time chat application with user authentication.</p>
+          <a href="#">View Project</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="current-year"></span> Leandro Crisci | Some rights reserved</p>
+    </footer>
+
+    <!-- Script to update the year dynamically -->
+    <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
