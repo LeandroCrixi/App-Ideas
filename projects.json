@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Bin2Dec",
+      "description": "Binary-to-Decimal number converter",
+      "pageLink": "https://bin2dec-crisci.netlify.app/",
+      "githubLink": "https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Bin2Dec-App.md"
+    },
+    {
+      "id": 2,
+      "title": "Border Radius Previewer",
+      "description": "Preview how CSS3 border-radius values affect an element",
+      "pageLink": "",
+      "githubLink": "https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Border-Radius-Previewer.md"
+    }
+  ]
+  
