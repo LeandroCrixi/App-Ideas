@@ -134,7 +134,8 @@ table a:hover {
     border-collapse: collapse;
     background: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: table; /* Ensures tables are visible by default */
+    /* display: table;  */ /* Ensures tables are visible by default */
+    display: none; /* Ensures tables are not visible by default */
 }
 
 /* Cards Section */

@@ -22,12 +22,12 @@ fetch('projects.json')
     const table = document.getElementById(tableId);
     const button = document.querySelector(`[onclick="toggleTable('${tableId}')"]`);
 
-    if (table.style.display === "none") {
-        table.style.display = "table";
-        button.textContent = button.textContent.replace("►", "▼");
-    } else {
+    if (table.style.display === "table") {
         table.style.display = "none";
         button.textContent = button.textContent.replace("▼", "►");
+    } else {
+        table.style.display = "table";
+        button.textContent = button.textContent.replace("►", "▼");
     }
 }
 
