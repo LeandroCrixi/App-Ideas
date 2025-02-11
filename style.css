@@ -181,3 +181,7 @@ footer {
     background: linear-gradient(45deg, #3498db, #2ecc71);
     color: #fff;
 }
+
+footer a{
+    color: inherit;
+}
