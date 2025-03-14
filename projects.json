@@ -17,8 +17,15 @@
       "id": 3,
       "title": "Calculator",
       "description": "One of the most useful tools available, that supports basic arithmetic calculations on integers",
-      "pageLink": "",
+      "pageLink": "https://calculator-js-crisci.netlify.app/",
       "githubLink": "https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Calculator-App.md"
+    },
+    {
+      "id": 4,
+      "title": "Christmas Lights",
+      "description": "Simulate a string of Christmas lights",
+      "pageLink": "",
+      "githubLink": "https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Christmas-Lights-App.md"
     }
   ]
   
