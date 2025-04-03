@@ -24,8 +24,29 @@
       "id": 4,
       "title": "Christmas Lights",
       "description": "Simulate a string of Christmas lights",
-      "pageLink": "",
+      "pageLink": "https://christmas-lights-crisci.netlify.app/",
       "githubLink": "https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Christmas-Lights-App.md"
-    }
+    },
+    {
+      "id": 5,
+      "title": "Cause Effect App",
+      "description": "Click list item to display item details",
+      "pageLink": "",
+      "githubLink": "https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Cause-Effect-App.md"
+    },
+    {
+      "id": 6,
+      "title": "Color Cycle",
+      "description": "Cycle a color value through incremental changes",
+      "pageLink": "",
+      "githubLink": "https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Color-Cycle-App.md"
+    },
+    {
+      "id": 7,
+      "title": "Countdown Timer",
+      "description": "Event Countdown timer",
+      "pageLink": "",
+      "githubLink": "https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Countdown-Timer-App.md"
+    },
   ]
   
